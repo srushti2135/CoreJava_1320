@@ -1,0 +1,22 @@
+package variable;
+
+public class BankAccount {
+	 public static void main(String args[]) {
+	        int accountId = 9001;
+	        String accountHolderName = "Rahul";
+	        String bankName = "SBI";
+	        String accountType = "Savings";
+	        double accountBalance = 25000.50;
+	        long accountNumber = 123456789012L;
+	        String branchName = "Pune Main Branch";
+
+	        System.out.println("Account ID : " + accountId);
+	        System.out.println("Account Holder Name : " + accountHolderName);
+	        System.out.println("Bank Name : " + bankName);
+	        System.out.println("Account Type : " + accountType);
+	        System.out.println("Account Balance : " + accountBalance);
+	        System.out.println("Account Number : " + accountNumber);
+	        System.out.println("Branch Name : " + branchName);
+	    }
+
+}
