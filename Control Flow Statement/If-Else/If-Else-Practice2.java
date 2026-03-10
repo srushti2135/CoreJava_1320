@@ -101,5 +101,67 @@ public static void main(String args[]) {
 		}
 	}*/
 	
+	
+	/*Write a program to display grade based on marks.
+	Example condition:
+	Marks ≥ 75 → Distinction
+	Marks ≥ 60 → First Class
+	Marks ≥ 50 → Second Class
+	Marks ≥ 35 → Pass
+	Otherwise → Fail*/
+	
+	/*public static void main(String args[]) {
+		
+		int marks=72;
+		
+		if(marks<=100 && marks>=75) {
+			
+			System.out.println("Distinction");
+		}else if(marks<75 && marks>=60) {
+			
+			System.out.println("First Class");
+		}else if(marks<60 && marks>=50) {
+			
+			System.out.println("Second class");
+		}else if(marks<50 && marks>=35) {
+			
+			System.out.println("Fail");
+		}else  {
+			
+			System.out.println("Sorry :( You are Fail");
+		}
+	}*/
+	
+	/*Write a program to calculate electricity bill based on units.
+Example:
+0–100 → ₹5 per unit
+101–200 → ₹7 per unit
+Above 200 → ₹10 per unit
+*/
+	
+	
+	/*public static void main(String args[]) {
+		
+		int bill=135;
+		
+		if(bill>=0 && bill<=100) {
+			
+			System.out.println("Rs. 5 per unit");
+		}else if(bill>=101 && bill<=200) {
+			
+			System.out.println("Rs. 7 Per Unit");
+		}
+		else if(bill>=200)  {
+			
+			System.out.println("Rs. 10 Per unit");
+		}else {
+			System.out.println("Enter valid number");
+			
+			
+	}
+}*/
 
 }
+
+
+
